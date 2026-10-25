@@ -1,0 +1,3 @@
+dataset,experiment,model,seed,epochs,selection,run_dir,loss,top1,top5,macro_f1,weighted_f1,precision_macro,recall_macro,evaluated_samples,partial_evaluation,many_acc,medium_acc,few_acc
+imagenet_lt,imagenet_lt,cnn,42,1400,final_epoch,/kaggle/working/long_tail_results/cnn_vs_vit/imagenet_lt/cnn_seed42,2.105,0.413,0.705,0.46,0.47,0.465,0.473,50000,False,0.579,0.444,0.282
+imagenet_lt,imagenet_lt,vit,42,1400,final_epoch,/kaggle/working/long_tail_results/cnn_vs_vit/imagenet_lt/vit_seed42,2.54,0.35,0.58,0.34,0.345,0.342,0.35,50000,False,0.544,0.279,0.078
